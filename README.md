@@ -1,5 +1,11 @@
 # elections_mlops_project
 
+This project aims to predict the results of the Portuguese election of 2019 using a real-time dataset. The technique used to make the prediction was Decision Tree Regression.
+
+Decision tree regression is a machine learning algorithm that uses a tree-like model of decisions and their possible consequences to make predictions. It is a supervised learning method that can be used for both regression and classification tasks. In regression tasks, the goal is to predict a continuous value, while in classification tasks, the goal is to predict a categorical value.
+
+In this project, the decision tree regression algorithm was used to predict the results of the Portuguese election of 2019 based on a real-time dataset. The dataset was continuously updated with new information as the election progressed, allowing for more accurate predictions over time. The results of the predictions were evaluated and compared to the actual results of the election to assess the accuracy of the model.
+
 ## Overview
 
 This is your new Kedro project, which was generated using `Kedro 0.18.4`.
