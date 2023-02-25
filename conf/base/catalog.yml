@@ -1,0 +1,35 @@
+raw_data:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/ElectionData.csv
+
+preprocessed_data:
+  type: pandas.CSVDataSet
+  filepath: data/02_intermediate/preprocessed_data.csv
+
+data:
+  type: pandas.CSVDataSet
+  filepath: data/04_feature/data.csv
+
+X_train:
+  type: pandas.CSVDataSet
+  filepath: data/04_feature/X_train.csv
+
+X_test:
+  type: pandas.CSVDataSet
+  filepath: data/04_feature/X_test.csv
+
+y_train:
+  type: pandas.CSVDataSet
+  filepath: data/04_feature/y_train.csv
+
+y_test:
+  type: pandas.CSVDataSet
+  filepath: data/04_feature/y_test.csv
+
+final_data:
+  type: pandas.CSVDataSet
+  filepath: data/04_feature/final_data.csv
+
+model_Election:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/model_Election.pkl
